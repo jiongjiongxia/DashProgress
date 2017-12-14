@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <android.support.v7.widget.SwitchCompat
+            android:layout_margin="30dp"
+            android:id="@+id/chat_swipe_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <SeekBar
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:id="@+id/seekbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:padding="30dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.yangdong.dashprogress.DashProgressBar
+                android:id="@+id/progress_bar_land1"
+                android:layout_width="200dp"
+                android:layout_height="20dp" />
+
+            <com.yangdong.dashprogress.DashProgressBar
+                android:layout_marginTop="16dp"
+                app:dashbgcolor="@color/colorPrimary"
+                app:dashunitbgcolor="@color/colorPrimaryDark"
+                app:dashdircetion_leftbottom="false"
+                app:dashwidth="2dp"
+                app:dashspace="1dp"
+                app:dashsmoothtime="1500"
+                app:dashbgradius="5dp"
+                android:id="@+id/progress_bar_land2"
+                android:layout_width="200dp"
+                android:layout_height="20dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="16dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.yangdong.dashprogress.DashProgressBar
+                android:id="@+id/progress_bar_pro1"
+                android:layout_width="20dp"
+                android:layout_height="200dp" />
+            <com.yangdong.dashprogress.DashProgressCircle
+                android:layout_margin="16dp"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/progresscir"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="200dp" />
+            <com.yangdong.dashprogress.DashProgressBar
+                android:id="@+id/progress_bar_pro2"
+                app:dashdircetion_leftbottom="false"
+                android:layout_width="20dp"
+                android:layout_height="200dp" />
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+</ScrollView>
