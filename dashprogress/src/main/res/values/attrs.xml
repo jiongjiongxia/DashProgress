@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="DashProgressView">
+        <attr name="dashspace" format="dimension"/>
+        <attr name="dashwidth" format="dimension"/>
+        <attr name="dashpadding" format="dimension"/>
+        <attr name="dashbgradius" format="dimension"/>
+
+        <attr name="dashsmoothtime" format="integer"/>
+        <attr name="dashstyle" format="boolean"/>
+        <attr name="dashbgcolor" format="color"/>
+        <attr name="dashunitbgcolor" format="color"/>
+        <attr name="dashstartcolor" format="color"/>
+        <attr name="dashmidcolor" format="color"/>
+        <attr name="dashendcolor" format="color"/>
+        <attr name="dashdircetion_leftbottom" format="boolean"></attr>
+
+        <attr name="dashroate" format="integer"></attr>
+        <attr name="dashinnerstokewidth" format="dimension"/>
+    </declare-styleable>
+
+
+</resources>
